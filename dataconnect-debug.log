@@ -1,0 +1,17 @@
+I1111 20:47:13.417515   15368 load.go:37] Reloading schema and connectors...
+I1111 20:47:13.441683   15368 control.go:45] [engine.Service /emulator/my_awesome_app 616d] UpdateSchema(): done sources: schema\schema.gql [1384B] 
+I1111 20:47:13.451461   15368 control.go:73] [engine.Service /emulator/my_awesome_app 616d] UpdateConnector(default): done sources: connector\mutations.gql [1163B] connector\queries.gql [1855B] 
+I1111 20:47:13.477576   15368 codegen.go:82] [connector "default" kotlinSdk] Generating sources into "C:\\Users\\fverr.000\\Documents\\APP\\my_awesome_app\\dataconnect\\connector\\dataconnect-generated\\kotlin\\connectors\\default"
+I1111 20:47:13.478576   15368 codegen.go:82] [connector "default" dartSdk] Generating sources into "C:\\Users\\fverr.000\\Documents\\APP\\my_awesome_app\\dataconnect-generated\\dart\\default_connector"
+I1111 20:47:13.478576   15368 dartgen.go:576] Started Dart code generation for connector default
+I1111 20:47:13.479732   15368 collector.go:107] schema extensions wrote into "C:\\Users\\fverr.000\\Documents\\APP\\my_awesome_app\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [62831B] 
+I1111 20:47:13.484928   15368 collector.go:107] connector "default" kotlinSdk wrote into "C:\\Users\\fverr.000\\Documents\\APP\\my_awesome_app\\dataconnect\\connector\\dataconnect-generated\\kotlin\\connectors\\default"
+Generated sources: DefaultConnector.kt [7884B] DefaultConnectorKeys.kt [1177B] DefaultConnectorEnums.kt [790B] 
+I1111 20:47:13.485931   15368 collector.go:107] connector "default" dartSdk wrote into "C:\\Users\\fverr.000\\Documents\\APP\\my_awesome_app\\dataconnect-generated\\dart\\default_connector"
+Generated sources: default.dart [585B] 
+I1111 20:47:13.486437   15368 load.go:115] Finished reloading
+I1111 20:47:13.487459   15368 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I1111 20:47:13.488446   15368 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I1111 20:47:14.808669   15368 control.go:45] [engine.Service /emulator/my_awesome_app 53b2] UpdateSchema(): done sources: schema\schema.gql [1384B] 
+I1111 20:47:14.808669   15368 control.go:73] [engine.Service /emulator/my_awesome_app 53b2] UpdateConnector(default): done sources: connector\mutations.gql [1163B] connector\queries.gql [1855B] 

@@ -1,0 +1,43 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ipes-survey",
+          "appId": "1:257463114401:android:9d165c20ba152fc70ceee0",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ipes-survey",
+          "configurations": {
+            "android": "1:257463114401:android:9d165c20ba152fc70ceee0",
+            "ios": "1:257463114401:ios:65986edb4d4633450ceee0",
+            "macos": "1:257463114401:ios:65986edb4d4633450ceee0",
+            "web": "1:257463114401:web:ff8fb77ac38ed8130ceee0",
+            "windows": "1:257463114401:web:bd61a417bc5015820ceee0"
+          }
+        }
+      }
+    }
+  },
+  "dataconnect": {
+    "source": "dataconnect"
+  },
+  "hosting": {
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "us-central1"
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

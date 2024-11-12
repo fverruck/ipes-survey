@@ -1,0 +1,7 @@
+name: ipes-survey-data-connect
+version: 1.0.0
+description: A description of your data connect project
+sources:
+  - name: survey-responses
+    type: json # e.g., 'csv', 'json', 'sql'
+    path: survey_responses.json # e.g., 'data/my_data.csv'
